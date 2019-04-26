@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing:border-box;
+    font-family:  'Nunito', sans-serif;
+}
+
+.content {
+    width: 100%;
+    padding: 0 5%;
+}
+
+.row:nth-child(2n) {
+    background-color: #F1F1F1;
+}
+
+.bg-gray {
+    background-color: #999 !important;
+}
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+.row .col {
+    width: 25%;
+    float: left;
+    padding: 1%;
+}
+
+.mt-1 {
+    margin-top: 0.7%;
+}
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 480px) {
+    .row .col {
+        width: 100%;
+        float: left;
+        padding: 1%;
+    }
+
+    .header .col {
+        float: left;
+        width: 25% !important;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (max-width: 768px) {
+    .row .col {
+        width: 100%;
+        float: left;
+        padding: 1%;
+    }
+
+    .header .col {
+        float: left;
+        width: 25% !important;
+    }
+}
